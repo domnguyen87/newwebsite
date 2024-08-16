@@ -30,10 +30,10 @@ const ContactForm: React.FC = () => {
 
     try {
       const result = await emailjs.send(
-        'your_service_id',
-        'your_template_id',
+        process.env.REACT_APP_EMAILJS_SERVICE_ID || '',
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID || '',
         formData,
-        'your_user_id'
+        process.env.REACT_APP_EMAILJS_USER_ID || ''
       );
       console.log('Email sent successfully!', result.text);
       setMessage('Email sent successfully!');

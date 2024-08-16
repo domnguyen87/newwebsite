@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import './CSS/style.css';
+import ContactForm from './components/ContactForm.tsx'
 
 function App() {
   return (
@@ -675,6 +676,7 @@ function App() {
       </div>
     </section>
 
+    <ContactForm/>
     {/* <!-- footer --> */}
     <footer class="footer__container">
       <p class="footer__desc">
