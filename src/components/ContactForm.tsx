@@ -47,45 +47,46 @@ const ContactForm: React.FC = () => {
   };
 
   return (
-    <div>
+    <div className="contact__form">
+      <h2 className="contactData__title">SEND US A NOTE</h2>
       <form onSubmit={handleSubmit}>
-        <div>
-          <label htmlFor="name">Name:</label>
-          <input
-            type="text"
-            name="name"
-            id="name"
-            value={formData.name}
-            onChange={handleChange}
-            required
-          />
-        </div>
-        <div>
-          <label htmlFor="email">Email:</label>
-          <input
-            type="email"
-            name="email"
-            id="email"
-            value={formData.email}
-            onChange={handleChange}
-            required
-          />
-        </div>
-        <div>
-          <label htmlFor="description">Description:</label>
+        <input
+          name="name"
+          type="text"
+          className="form__input"
+          placeholder="Name"
+          value={formData.name}
+          onChange={handleChange}
+          required
+        />
+        <input
+          name="email"
+          type="email"
+          className="form__input"
+          placeholder="Email"
+          value={formData.email}
+          onChange={handleChange}
+          required
+        />
+        <div className="text__container">
           <textarea
             name="description"
-            id="description"
+            className="form__input"
+            placeholder="Tell us more about your needs......"
             value={formData.description}
             onChange={handleChange}
             required
           ></textarea>
         </div>
-        <button type="submit" disabled={isSubmitting}>
+        {/* <div className="send__button">
+          <a href="mailto:abc@example.com" className="form__button"
+          >Send Message</a
+          >
+        </div> */}
+        <button type="submit" disabled={isSubmitting} className="form__button">
           {isSubmitting ? 'Sending...' : 'Send Email'}
         </button>
       </form>
-      {message && <p>{message}</p>}
     </div>
   );
 };
