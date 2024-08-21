@@ -1,0 +1,109 @@
+/* Container for the entire carousel */
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Container for individual testimonials */
+.testimonial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Styling for the testimonial image */
+.testimonial-image img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 3px solid #ddd;
+}
+
+/* Styling for the testimonial message text */
+.testimonial-message {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #555;
+    margin-bottom: 15px;
+    padding: 0 20px;
+}
+
+/* Styling for the testimonial author's name */
+.testimonial-name {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Styling for the testimonial author's position and company */
+.testimonial-position {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+/* Styling for the carousel navigation buttons */
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 2rem;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.carousel-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Position the "previous" button on the left */
+.carousel-button.prev {
+    left: 10px;
+}
+
+/* Position the "next" button on the right */
+.carousel-button.next {
+    right: 10px;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .testimonial-message {
+        font-size: 1rem;
+        padding: 0 10px;
+    }
+
+    .testimonial-name {
+        font-size: 0.9rem;
+    }
+
+    .testimonial-position {
+        font-size: 0.8rem;
+    }
+
+    .testimonial-image img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .carousel-button {
+        font-size: 1.5rem;
+    }
+}

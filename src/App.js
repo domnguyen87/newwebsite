@@ -2,6 +2,7 @@
 import './App.css';
 import './CSS/style.css';
 import ContactForm from './components/ContactForm.tsx'
+import TestimonialCarousel from './components/TestimonialCarousel.tsx';
 
 function App() {
   return (
@@ -573,6 +574,8 @@ function App() {
           </div>
         </div>
       </section>
+      <TestimonialCarousel />
+
 
       {/* <!-- Contact --> */}
       <section id="contact">
@@ -634,7 +637,7 @@ function App() {
                   <span class="tooltiptext__gh">Github</span>
                 </li>
               </ul>
-            </div>
+            </div>\
             <ContactForm />
           </div>
         </div>
