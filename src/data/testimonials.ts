@@ -24,5 +24,37 @@ export const testimonials: Testimonial[] = [
         message: 'Great experience! The team was professional and delivered on time.',
         image: 'https://example.com/images/jane.jpg',
     },
+    {
+        id: 3,
+        name: 'Jen John',
+        position: 'Project Manager',
+        company: 'Business Solutions',
+        message: 'Great experience! The team was professional and delivered on time.',
+        image: 'https://example.com/images/jane.jpg',
+    },
+    {
+        id: 4,
+        name: 'David Do',
+        position: 'Project Manager',
+        company: 'Business Solutions',
+        message: 'Great experience! The team was professional and delivered on time.',
+        image: 'https://example.com/images/jane.jpg',
+    },
+    {
+        id: 5,
+        name: 'Eric Lenny',
+        position: 'Project Manager',
+        company: 'Business Solutions',
+        message: 'Great experience! The team was professional and delivered on time.',
+        image: 'https://example.com/images/jane.jpg',
+    },
+    {
+        id: 6,
+        name: 'Bob Smith',
+        position: 'Project Manager',
+        company: 'Business Solutions',
+        message: 'Great experience! The team was professional and delivered on time.',
+        image: 'https://example.com/images/jane.jpg',
+    }
     // Add more testimonials as needed
 ];
