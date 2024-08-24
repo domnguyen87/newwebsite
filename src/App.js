@@ -506,7 +506,9 @@ function App() {
             <p class="text__overlap">Client Speak</p>
           </h2>
           <div class="testimonial__wrap">
-            <div class="testCard__container">
+            <TestimonialCarousel />
+
+            {/* <div class="testCard__container">
               <div class="card__info">
                 <div class="card__img">
                   <img
@@ -532,8 +534,8 @@ function App() {
                 <i class="fas fa-star text-warning"></i>
                 <i class="fas fa-star text-warning"></i>
               </span>
-            </div>
-            <div class="testCard__container card__second">
+            </div> */}
+            {/* <div class="testCard__container card__second">
               <div class="card__info">
                 <div class="card__img">
                   <img
@@ -559,10 +561,10 @@ function App() {
                 <i class="fas fa-star text-warning"></i>
                 <i class="fas fa-star text-warning"></i>
               </span>
-            </div>
+            </div> */}
           </div>
 
-          <div class="bullet__container--web">
+          {/* <div class="bullet__container--web">
             <i class="fa-regular fa-circle-dot"></i>
             <i class="fa-solid fa-circle"></i>
           </div>
@@ -571,10 +573,9 @@ function App() {
             <i class="fa-solid fa-circle"></i>
             <i class="fa-solid fa-circle"></i>
             <i class="fa-solid fa-circle"></i>
-          </div>
+          </div> */}
         </div>
       </section>
-      <TestimonialCarousel />
 
 
       {/* <!-- Contact --> */}
@@ -637,7 +638,7 @@ function App() {
                   <span class="tooltiptext__gh">Github</span>
                 </li>
               </ul>
-            </div>\
+            </div>
             <ContactForm />
           </div>
         </div>

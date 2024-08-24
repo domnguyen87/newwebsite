@@ -44,14 +44,35 @@ const TestimonialCarousel: React.FC = () => {
                         </div>
                         <div className="testimonial-content">
                             <p className="testimonial-message">"{message}"</p>
-                            <p className="testimonial-name">- {name}</p>
+                            <p className="testimonial-name">{name}</p>
                             <p className="testimonial-position">
                                 {position} at {company}
                             </p>
                         </div>
+                        {/* <div className="testCard__container">
+                            <div className="card__info">
+                                <div className="card__img">
+                                    <img
+                                        className="testimonial-image"
+                                        src={image}
+                                        alt="reviewer image 1"
+                                    />
+                                </div>
+                                <p className="cardInfo__desc">
+                                    <b className="testCard__name">{name}</b> <br />
+                                    <span className="testCard__title">{position} from {company}</span>
+                                </p>
+                            </div>
+                            <p className="testimonial-message">
+                                {message}
+                            </p>
+                        </div> */}
                     </div>
                 ))}
             </div>
+
+
+
             <button className="carousel-button prev" onClick={prevTestimonial}>
                 &#10094;
             </button>
