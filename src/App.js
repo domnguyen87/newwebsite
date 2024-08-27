@@ -3,6 +3,8 @@ import './App.css';
 import './CSS/style.css';
 import ContactForm from './components/ContactForm.tsx'
 import TestimonialCarousel from './components/TestimonialCarousel.tsx';
+import ProjectShowcase from './components/ProjectShowcase.tsx';
+
 
 function App() {
   return (
@@ -496,6 +498,7 @@ function App() {
             </div>
           </div>
         </div>
+        <ProjectShowcase />
       </section>
 
       {/* <!-- Testimonial --> */}

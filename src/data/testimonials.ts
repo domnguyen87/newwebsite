@@ -37,7 +37,7 @@ export const testimonials: Testimonial[] = [
         name: 'David Do',
         position: 'DevOps Engineer',
         company: 'Apple',
-        message: 'Meticulous attention to detail and commitment to delivering top-notch work are truly commendable. The precision and care you put into each task don’t go unnoticed.',
+        message: 'Meticulous attention to detail and commitment to delivering work are truly commendable. Precision and care you put into each task don’t go unnoticed.',
         image: 'https://images.pexels.com/photos/428364/pexels-photo-428364.jpeg?auto=compress&cs=tinysrgb&w=600',
     },
     {
