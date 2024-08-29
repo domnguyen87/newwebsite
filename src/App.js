@@ -4,6 +4,8 @@ import './CSS/style.css';
 import ContactForm from './components/ContactForm.tsx'
 import TestimonialCarousel from './components/TestimonialCarousel.tsx';
 import ProjectShowcase from './components/ProjectShowcase.tsx';
+import Weather from './components/Weather.tsx';
+
 
 
 function App() {
@@ -47,6 +49,9 @@ function App() {
               <div class="navbar__socialItem">
                 <ul>
                   <li class="socialItem">
+                    <Weather />
+                  </li>
+                  <li class="socialItem">
                     <a target="_blank" rel="noopener noreferrer" href="#"
                     ><i class="fa-brands fa-facebook-f"></i></a
                     ><span class="tooltiptext__fb">Facebook</span>
@@ -85,6 +90,7 @@ function App() {
           </div>
         </div>
       </header>
+
 
       {/* <!-- about --> */}
       <section id="about">
