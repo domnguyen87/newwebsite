@@ -18,26 +18,61 @@ const Weather: React.FC = () => {
     const [error, setError] = useState<string | null>(null);
 
     useEffect(() => {
-        const fetchWeather = async () => {
+        const fetchWeather = async (latitude: number, longitude: number) => {
+            console.log("Fetching weather for coordinates:", latitude, longitude);
             try {
                 const response = await fetch(
-                    `https://api.openweathermap.org/data/2.5/weather?q=New York&units=imperial&appid=${process.env.REACT_APP_OPENWEATHER_API_KEY}`
+                    `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&units=imperial&appid=${process.env.REACT_APP_OPENWEATHER_API_KEY}`
                 );
+                console.log("API Response:", response);
 
                 if (!response.ok) {
                     throw new Error("Failed to fetch weather data");
                 }
 
                 const data = await response.json();
+                console.log("Weather Data:", data);
                 setWeatherData(data);
             } catch (error) {
+                console.error("Error fetching weather data:", error);
                 setError(error.message);
             } finally {
                 setLoading(false);
             }
         };
 
-        fetchWeather();
+
+        const getLocation = () => {
+            console.log("getLocation function called");
+
+            if (navigator.geolocation) {
+                console.log("Geolocation is supported by this browser.");
+
+                navigator.geolocation.getCurrentPosition(
+                    (position) => {
+                        const { latitude, longitude } = position.coords;
+                        console.log("Geolocation success:");
+                        console.log("Latitude:", latitude);
+                        console.log("Longitude:", longitude);
+
+                        fetchWeather(latitude, longitude);  // Assuming fetchWeather is already defined and working
+                    },
+                    (error) => {
+                        console.error("Geolocation error:", error.message);
+                        setError("Geolocation is not supported by this browser or permission denied.");
+                        setLoading(false);
+                    }
+                );
+            } else {
+                console.error("Geolocation is not supported by this browser.");
+                setError("Geolocation is not supported by this browser.");
+                setLoading(false);
+            }
+        };
+
+
+
+        getLocation();
     }, []);
 
     if (loading) return <div>Loading weather...</div>;
@@ -47,7 +82,7 @@ const Weather: React.FC = () => {
         <div className="weather">
             {weatherData && (
                 <div>
-                    <h3>Your Weather in {weatherData.name}</h3>
+                    <h3>{weatherData.name}</h3>
                     <p>
                         Temperature: {Math.round(weatherData.main.temp)}°F
                     </p>
