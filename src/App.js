@@ -1,4 +1,5 @@
 // import logo from './logo.svg';
+import React, { useEffect } from 'react';
 import './App.css';
 import './CSS/style.css';
 import ContactForm from './components/ContactForm.tsx'
@@ -9,6 +10,29 @@ import Weather from './components/Weather.tsx';
 
 
 function App() {
+
+  useEffect(() => {
+    // Wait until botpressWebChat is defined
+    if (window.botpressWebChat) {
+      window.botpressWebChat.init({
+        host: "https://cdn.botpress.cloud/webchat/v2.1/shareable.html",
+        botId: process.env.REACT_APP_BOT_ID,
+        botName: "Your Bot",
+        showPoweredBy: false,
+      });
+    } else {
+      console.error('Botpress WebChat is not available');
+    }
+  }, []);
+
+  const openChat = () => {
+    if (window.botpressWebChat) {
+      window.botpressWebChat.sendEvent({ type: 'show' });
+    } else {
+      console.error('Botpress WebChat is not initialized');
+    }
+  };
+
   return (
     <div className="App">
       <nav id="nav">
@@ -83,6 +107,7 @@ function App() {
               {/* <h1 class="home__title">I'm Dom Nguyen</h1> */}
               <p class="home__desc">Based in Los Angeles, California</p>
               <a href="mailto:abc@example.com" class="home__button">Hire Me</a>
+              {/* <button onClick={openChat}>Chat with Us</button> */}
               <div class="home__arrow--click">
                 <a href="#about"><i class="fa-solid fa-chevron-down"></i></a>
               </div>
