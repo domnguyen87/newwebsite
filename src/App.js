@@ -6,6 +6,8 @@ import ContactForm from './components/ContactForm.tsx'
 import TestimonialCarousel from './components/TestimonialCarousel.tsx';
 import ProjectShowcase from './components/ProjectShowcase.tsx';
 import Weather from './components/Weather.tsx';
+import LatestCommit from './components/Github.tsx';
+
 
 
 
@@ -183,6 +185,10 @@ function App() {
             </div>
           </div>
         </div>
+        <h3 class="titleBackground">
+          <LatestCommit />
+        </h3>
+
       </section>
 
       {/* <!-- Services --> */}
