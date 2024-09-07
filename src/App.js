@@ -1,4 +1,5 @@
 // import logo from './logo.svg';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import React, { useEffect } from 'react';
 import './App.css';
 import './CSS/style.css';
@@ -7,6 +8,7 @@ import TestimonialCarousel from './components/TestimonialCarousel.tsx';
 import ProjectShowcase from './components/ProjectShowcase.tsx';
 import Weather from './components/Weather.tsx';
 import LatestCommit from './components/Github.tsx';
+import ComingSoon from './pages/ComingSoon.js';
 
 
 
@@ -683,6 +685,23 @@ function App() {
           </div>
         </div>
       </section>
+      <Router>
+        <div>
+          {/* Navigation */}
+          <nav>
+            <ul>
+              <li>
+                <Link to="/comingsoon">Coming Soon</Link>
+              </li>
+            </ul>
+          </nav>
+
+          {/* Route Definitions */}
+          <Routes>
+            <Route path="/comingsoon" element={<ComingSoon />} />
+          </Routes>
+        </div>
+      </Router>
 
       {/* <!-- footer --> */}
       <footer class="footer__container">
