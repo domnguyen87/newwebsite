@@ -9,7 +9,7 @@ import ProjectShowcase from './components/ProjectShowcase.tsx';
 import Weather from './components/Weather.tsx';
 import LatestCommit from './components/Github.tsx';
 import ComingSoon from './pages/ComingSoon.js';
-
+import VotingSystem from './components/VotingSystem.js';
 
 
 
@@ -618,7 +618,9 @@ function App() {
           </div> */}
         </div>
       </section>
-
+      <section>
+        <VotingSystem />
+      </section>
 
       {/* <!-- Contact --> */}
       <section id="contact">
