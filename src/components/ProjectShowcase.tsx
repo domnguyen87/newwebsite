@@ -14,15 +14,14 @@ const ProjectShowcase: React.FC = () => {
 
     return (
         <div className="project-showcase">
-            <h2>My Projects</h2>
-            <div className="filters">
-                <button onClick={() => setSelectedTag(null)}>All</button>
+            <ul className='portfolio__type'>
+                <li className="type__item item--active" onClick={() => setSelectedTag(null)}><a>All</a></li>
                 {uniqueTags.map((tag) => (
-                    <button key={tag} onClick={() => setSelectedTag(tag)}>
-                        {tag}
-                    </button>
+                    <li className="type__item" key={tag} onClick={() => setSelectedTag(tag)}>
+                        <a>{tag}</a>
+                    </li>
                 ))}
-            </div>
+            </ul>
             <div className="projects-grid">
                 {filteredProjects.map((project: Project) => (
                     <div key={project.id} className="project-card">
@@ -39,7 +38,7 @@ const ProjectShowcase: React.FC = () => {
                     </div>
                 ))}
             </div>
-        </div>
+        </div >
     );
 };
 

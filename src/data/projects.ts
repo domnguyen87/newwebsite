@@ -12,7 +12,7 @@ export const projects: Project[] = [
         id: 1,
         title: "E-commerce Website",
         description: "A full-featured e-commerce website built with React and Node.js.",
-        tags: ["React", "Node.js", "E-commerce"],
+        tags: ["React", "Node.js", "Ecommerce"],
         image: "/images/ecommerce.png"
     },
     {
@@ -26,7 +26,7 @@ export const projects: Project[] = [
         id: 3,
         title: "Mobile App",
         description: "A cross-platform mobile app developed using React Native.",
-        tags: ["React Native", "Mobile", "JavaScript"],
+        tags: ["ReactNative", "Mobile", "JavaScript"],
         image: "/images/mobile-app.png"
     }
     // Add more projects as needed

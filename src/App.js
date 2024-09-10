@@ -444,7 +444,7 @@ function App() {
           <li class="type__item"><a href="#">Brand</a></li>
           <li class="type__item"><a href="#">Photos</a></li>
         </ul>
-        <div class="portfolio__gallery">
+        {/* <div class="portfolio__gallery">
           <div class="photo__item">
             <img
               class="gallery__photo"
@@ -536,7 +536,7 @@ function App() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <ProjectShowcase />
       </section>
 
