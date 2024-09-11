@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.movie-container {
+  display: flex;
+  justify-content: center;
+}
+
+.movie-card {
+  text-align: center;
+  padding: 20px;
+}
+
+.movie-card img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}

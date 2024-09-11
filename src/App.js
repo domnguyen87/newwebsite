@@ -10,6 +10,8 @@ import Weather from './components/Weather.tsx';
 import LatestCommit from './components/Github.tsx';
 import ComingSoon from './pages/ComingSoon.js';
 import VotingSystem from './components/VotingSystem.js';
+import RandomMovies from './components/RandomMovies.js';
+
 
 
 
@@ -191,6 +193,12 @@ function App() {
           <LatestCommit />
         </h3>
 
+      </section>
+      <section>
+        <div>
+          <h2>Movies Recommendation</h2>
+          <RandomMovies />
+        </div>
       </section>
 
       {/* <!-- Services --> */}
