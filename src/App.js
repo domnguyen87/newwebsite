@@ -46,7 +46,7 @@ function App() {
           <div class="navbar__container">
             <div class="navbar__row">
               <div class="navbar__logo">
-                <img src="/Assets/img/logo-light.png" alt="Simone Logo" />
+                <img src="/Assets/img/logo-lightOLD.png" alt="Simone Logo" />
               </div>
 
               <div class="navbar__listItem">
@@ -111,7 +111,7 @@ function App() {
               <h3 class="home__intro">Welcome</h3>
               <h1 class="home__title"></h1>
               {/* <h1 class="home__title">I'm Dom Nguyen</h1> */}
-              <p class="home__desc">Based in Los Angeles, California</p>
+              <p class="home__desc">Based in Orange County, California</p>
               <a href="mailto:abc@example.com" class="home__button">Hire Me</a>
               {/* <button onClick={openChat}>Chat with Us</button> */}
               <div class="home__arrow--click">
@@ -133,21 +133,13 @@ function App() {
           <div class="about__desc">
             <div class="about__parag">
               <h2 class="about__title">
-                I'm <span class="aboutTitle__span">Dom Nguyen,</span> a Web
-                Developer
+                I'm <span class="aboutTitle__span">Dom Nguyen,</span> your next software dev expert.
               </h2>
               <p class="aboutParag__desc">
-                I help you build brand for your business at an affordable price.
-                Thousands of clients have procured exceptional results while
-                working with our dedicated team. when an unknown printer took a
-                galley of type and scrambled it to make a type specimen book.
+                A passionate software developer based in Orange County with an unconventional journey. I started my academic path majoring in Chemistry at UCSD, but it wasn’t long before I fell in love with coding and the thrill of problem-solving. Transitioning from labs to lines of code, I’ve built a strong foundation specializing in SQL Server, .NET, and React. Today, I get to do what I love every day: creating innovative solutions that make an impact.
               </p>
               <p class="aboutParag__desc">
-                Delivering work within time and budget which meets clientâ€™s
-                requirements is our moto. Lorem Ipsum has been the industry's
-                standard dummy text ever when an unknown printer took a galley.
-                Lorem Ipsum has been the industry's standard dummy text ever when
-                an unknown printer took a galley.
+                I view myself as a lifelong learner in the ever-evolving world of programming, constantly seeking new knowledge and skills to stay ahead. Each day brings fresh challenges and opportunities to grow, and I am committed to delivering meaningful value wherever I work. I believe that by embracing continuous learning, I can contribute even more to the projects and teams I’m part of.
               </p>
             </div>
             <div class="about__table">
@@ -155,11 +147,10 @@ function App() {
                 <li class="aboutTable__list"><b>Name:</b> Dom Nguyen</li>
                 <li class="aboutTable__list">
                   <b>Email:</b>
-                  <span class="aboutTable__list--active">chat@simone.com</span>
+                  <span class="aboutTable__list--active"> hello@domnguyen.me</span>
                 </li>
-                <li class="aboutTable__list"><b>Age:</b> 28</li>
                 <li class="aboutTable__list">
-                  <b>From:</b> Los Angeles, California
+                  <b>From:</b> Orange County, California
                 </li>
               </ul>
               <a
@@ -172,20 +163,20 @@ function App() {
           </div>
           <div class="about__numbers">
             <div class="number__data">
-              <h4 class="aboutData__number">10+</h4>
+              <h4 class="aboutData__number">5+</h4>
               <p class="aboutData__desc">Years Experiance</p>
             </div>
             <div class="number__data">
-              <h4 class="aboutData__number">250+</h4>
+              <h4 class="aboutData__number">10+</h4>
               <p class="aboutData__desc">Happy Clients</p>
             </div>
             <div class="number__data">
-              <h4 class="aboutData__number">650+</h4>
+              <h4 class="aboutData__number">20+</h4>
               <p class="aboutData__desc">Projects Done</p>
             </div>
             <div class="number__data">
-              <h4 class="aboutData__number">38</h4>
-              <p class="aboutData__desc">Get Awards</p>
+              <h4 class="aboutData__number">1</h4>
+              <p class="aboutData__desc">Awards</p>
             </div>
           </div>
         </div>
@@ -201,7 +192,7 @@ function App() {
         </div>
       </section>
 
-      {/* <!-- Services --> */}
+      {/* <!-- Services -->
       <section id="service">
         <div class="services__Container">
           <h2 class="titleBackground">
@@ -301,7 +292,7 @@ function App() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* <!-- Summary --> */}
       <section id="summary">
