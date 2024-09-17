@@ -302,71 +302,60 @@ function App() {
             <p class="text__overlap">Resume</p>
           </h2>
 
-          <div class="resume__container">
-            <div class="resume__column">
-              <h2 class="resume__title">My Education</h2>
-              <div class="resume__card">
-                <p class="card__year">2000 - 2004</p>
-                <h3 class="card__title">Computer Science</h3>
-                <p class="card__subtitle">International University</p>
-                <p class="card__desc">
-                  Lisque persius interesset his et, in quot quidam persequeris
-                  vim, ad mea essent possim iriure.
-                </p>
-              </div>
-              <div class="resume__card">
-                <p class="card__year">2005 - 2008</p>
-                <h3 class="card__title">Bachelor Degree</h3>
-                <p class="card__subtitle">University of California</p>
-                <p class="card__desc">
-                  Lisque persius interesset his et, in quot quidam persequeris
-                  vim, ad mea essent possim iriure.
-                </p>
-              </div>
-              <div class="resume__card">
-                <p class="card__year">2009 - 2012</p>
-                <h3 class="card__title">Master Degree</h3>
-                <p class="card__subtitle">Harvard University</p>
-                <p class="card__desc">
-                  Lisque persius interesset his et, in quot quidam persequeris
-                  vim, ad mea essent possim iriure.
-                </p>
-              </div>
+
+
+          <div class="resume__column">
+            <h2 class="resume__title">My Education</h2>
+            <div class="resume__card">
+              <h3 class="card__title">B.S. Chemistry</h3>
+              <p class="card__subtitle">University Of California, San Diego</p>
+              {/* <p class="card__desc">
+                Lisque persius interesset his et, in quot quidam persequeris
+                vim, ad mea essent possim iriure.
+              </p> */}
+            </div>
+            <h2 class="resume__title">My Experience</h2>
+            <div class="resume__card">
+              <p class="card__year">2018 - 2019</p>
+              <h3 class="card__title"> Full Stack Developer</h3>
+              <p class="card__subtitle">Eleveight Inc.</p>
+              <p class="card__desc">
+                Eleveight is a HIPAA compliant, web-based, case management platform and mobile app that connects clients with jobs, scholarships and opportunities that match their needs, interests and location to support them in their long-term personal and professional success.
+              </p>
+            </div>
+            <div class="resume__card">
+              <p class="card__year">2019 - 2020</p>
+              <h3 class="card__title">Web Developer</h3>
+              <p class="card__subtitle">Extron</p>
+              <p class="card__desc">
+                Extron Control and Automation solutions simplify meetings, streamline presentations, and operate your core infrastructure across the enterprise.
+              </p>
+            </div>
+            <div class="resume__card">
+              <p class="card__year">2020 - Present</p>
+              <h3 class="card__title">Software Developer</h3>
+              <p class="card__subtitle">Eliant, Inc.</p>
+              <p class="card__desc">
+                Eliant has been the homebuilding industry’s premier reputation management firm, helping builders increase sales from referrals. Providing insights and best practices via our live workshops, webinars, and online learning university, over 1,800 builders in the US, Canada, and the Middle East
+              </p>
             </div>
 
-            <div class="resume__column">
-              <h2 class="resume__title">My Experience</h2>
-              <div class="resume__card">
-                <p class="card__year">2012 - 2013</p>
-                <h3 class="card__title">Jr. UI UX Designer</h3>
-                <p class="card__subtitle">Themeforest</p>
-                <p class="card__desc">
-                  Lisque persius interesset his et, in quot quidam persequeris
-                  vim, ad mea essent possim iriure.
-                </p>
-              </div>
-              <div class="resume__card">
-                <p class="card__year">2014 - 2016</p>
-                <h3 class="card__title">Jr. Product Designer</h3>
-                <p class="card__subtitle">Dribbble</p>
-                <p class="card__desc">
-                  Lisque persius interesset his et, in quot quidam persequeris
-                  vim, ad mea essent possim iriure.
-                </p>
-              </div>
-              <div class="resume__card">
-                <p class="card__year">2017 - 2019</p>
-                <h3 class="card__title">Product Designer</h3>
-                <p class="card__subtitle">Adobe</p>
-                <p class="card__desc">
-                  Lisque persius interesset his et, in quot quidam persequeris
-                  vim, ad mea essent possim iriure.
-                </p>
-              </div>
+            <h2 class="resume__title">My Awards</h2>
+            <div class="resume__card">
+              <p class="card__year">2019</p>
+              <h3 class="card__title">ADDIHacks Long Beach Hackathon [1st place winner]</h3>
+              <p class="card__subtitle"><img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*lotSgWr0HaJQ8Ze22gwA8Q.jpeg"></img><br></br></p>
+              <p class="card__desc">
+                Produced a web application in the span of 48 hours using the technologies provided by the City of Long Beach to create Good Neighbor.
+                <br></br><br></br>
+                The Good Neighbor app brings the community together by giving people the chance to report incidents or do good deeds by helping someone in need near them. Users will fill out a form to submit an incident that will include a photo. Local incidents will be show alongside with a map of where the incidents will have happened. Users will also be able to upvote or downvote an incident near them to validate those incidents. Google Maps and Long Beach Police Department API were used to display a map of where incidents have occurred and also where all Long Beach Police stations are located.
+                <br></br><br></br>
+                <a href="https://medium.com/digequity/addi-hackathon-2019-b5cc60ade6ec" target='_blank'>Read More Here</a>
+              </p>
             </div>
           </div>
 
-          <h2 class="skills__title">My Skills</h2>
+          {/* <h2 class="skills__title">My Skills</h2>
           <div class="resume__container">
             <div class="skills__column">
               <div class="skill__bar">
@@ -418,18 +407,18 @@ function App() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div class="button__container">
             <a class="summary__button" href="./Assets/Cv.pdf" target="_blank"
-            >Download CV&nbsp<i class="fa-sharp fa-solid fa-download"></i
+            >Download Resume<i class="fa-sharp fa-solid fa-download"></i
             ></a>
           </div>
         </div>
-      </section>
+      </section >
 
       {/* <!-- Portfolio --> */}
-      <section id="portfolio">
+      < section id="portfolio" >
         <div class="portfolio__Container">
           <h2 class="titleBackground">
             Portfolio
@@ -537,10 +526,10 @@ function App() {
           </div>
         </div> */}
         <ProjectShowcase />
-      </section>
+      </section >
 
       {/* <!-- Testimonial --> */}
-      <section id="testimonial">
+      < section id="testimonial" >
         <div class="testimonial__Container">
           <h2 class="titleBackground">
             Testimonial
@@ -616,7 +605,7 @@ function App() {
             <i class="fa-solid fa-circle"></i>
           </div> */}
         </div>
-      </section>
+      </section >
       <section>
         <VotingSystem />
       </section>
@@ -719,7 +708,7 @@ function App() {
           </li>
         </ul>
       </footer>
-    </div>
+    </div >
 
 
   );
