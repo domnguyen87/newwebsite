@@ -344,7 +344,8 @@ function App() {
             <div class="resume__card">
               <p class="card__year">2019</p>
               <h3 class="card__title">ADDIHacks Long Beach Hackathon [1st place winner]</h3>
-              <p class="card__subtitle"><img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*lotSgWr0HaJQ8Ze22gwA8Q.jpeg"></img><br></br></p>
+              <p class="card__subtitle"><img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*lotSgWr0HaJQ8Ze22gwA8Q.jpeg" style={{ maxWidth: "100%", height: "auto" }} ></img>
+                <br></br></p>
               <p class="card__desc">
                 Produced a web application in the span of 48 hours using the technologies provided by the City of Long Beach to create Good Neighbor.
                 <br></br><br></br>
