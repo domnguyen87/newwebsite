@@ -64,6 +64,7 @@ html {
 }
 
 .navbar__logo img {
+  padding-top: 10px;
   width: 114px;
 }
 
@@ -73,6 +74,10 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.navbar__listItem {
+  padding-left: 20px;
 }
 
 .navbar__listItem ul,

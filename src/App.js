@@ -46,14 +46,13 @@ function App() {
           <div class="navbar__container">
             <div class="navbar__row">
               <div class="navbar__logo">
-                <img src="/Assets/img/logo-lightOLD.png" alt="Simone Logo" />
+                <img src={require('./img/logo-light.png')} />
               </div>
 
               <div class="navbar__listItem">
                 <ul>
                   <li class="item item__active"><a href="#home">Home</a></li>
                   <li class="item"><a href="#about">About</a></li>
-                  <li class="item"><a href="#service">What I Do</a></li>
                   <li class="item"><a href="#summary">Resume</a></li>
                   <li class="item"><a href="#portfolio">Portfolio</a></li>
                   <li class="item"><a href="#testimonial">Client</a></li>
