@@ -1,4 +1,11 @@
 /* ProjectShowcase.css */
+/* For larger screens (forcing 3 columns) */
+@media (min-width: 1100px) {
+    .projects-grid {
+        grid-template-columns: repeat(3, 1fr) !important;
+    }
+}
+
 .project-showcase {
     padding: 20px;
     text-align: center;

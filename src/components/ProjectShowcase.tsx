@@ -14,27 +14,27 @@ const ProjectShowcase: React.FC = () => {
 
     return (
         <div className="project-showcase">
-            <ul className='portfolio__type'>
+            {/* <ul className='portfolio__type'>
                 <li className="type__item item--active" onClick={() => setSelectedTag(null)}><a>All</a></li>
                 {uniqueTags.map((tag) => (
                     <li className="type__item" key={tag} onClick={() => setSelectedTag(tag)}>
                         <a>{tag}</a>
                     </li>
                 ))}
-            </ul>
+            </ul> */}
             <div className="projects-grid">
                 {filteredProjects.map((project: Project) => (
                     <div key={project.id} className="project-card">
                         <img src={project.image} alt={project.title} />
                         <h3>{project.title}</h3>
                         <p>{project.description}</p>
-                        <div className="tags">
+                        {/* <div className="tags">
                             {project.tags.map((tag) => (
                                 <span key={tag} className="tag">
                                     {tag}
                                 </span>
                             ))}
-                        </div>
+                        </div> */}
                     </div>
                 ))}
             </div>

@@ -426,12 +426,12 @@ function App() {
           </h2>
         </div>
 
-        <ul class="portfolio__type">
+        {/* <ul class="portfolio__type">
           <li class="type__item item--active"><a href="#">All</a></li>
           <li class="type__item"><a href="#">Design</a></li>
           <li class="type__item"><a href="#">Brand</a></li>
           <li class="type__item"><a href="#">Photos</a></li>
-        </ul>
+        </ul> */}
         {/* <div class="portfolio__gallery">
           <div class="photo__item">
             <img
