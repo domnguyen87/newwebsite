@@ -6,8 +6,8 @@ function VoteItem({ item, votes, onVote }) {
         <div>
             <h2>{item}</h2>
             <p>Votes: {votes}</p>
-            <button onClick={() => onVote(1)}>Upvote</button>
-            <button onClick={() => onVote(-1)}>Downvote</button>
+            <button className='form__button' onClick={() => onVote(1)}>Upvote</button>
+            <button className='form__button' onClick={() => onVote(-1)}>Downvote</button>
         </div>
     );
 }
@@ -41,13 +41,14 @@ function VotingSystem() {
     };
 
     const totalVotes = Object.values(votes).reduce((sum, count) => sum + count, 0);
+    const year = new Date().getFullYear();
 
     return (
         <div>
-            <h1>Voting System</h1>
-            <VoteItem item="Item 1" votes={votes.item1} onVote={(value) => handleVote('item1', value)} />
-            <VoteItem item="Item 2" votes={votes.item2} onVote={(value) => handleVote('item2', value)} />
-            <VoteItem item="Item 3" votes={votes.item3} onVote={(value) => handleVote('item3', value)} />
+            <h1>What is the best language to learn in {year}</h1>
+            <VoteItem item="Python" votes={votes.item1} onVote={(value) => handleVote('item1', value)} />
+            <VoteItem item="Rust" votes={votes.item2} onVote={(value) => handleVote('item2', value)} />
+            <VoteItem item="JavaScript" votes={votes.item3} onVote={(value) => handleVote('item3', value)} />
             <TotalVotes total={totalVotes} />
         </div>
     );
