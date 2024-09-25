@@ -81,19 +81,9 @@ function App() {
                     <Weather />
                   </li>
                   <li class="socialItem">
-                    <a target="_blank" rel="noopener noreferrer" href="#"
-                    ><i class="fa-brands fa-facebook-f"></i></a
-                    ><span class="tooltiptext__fb">Facebook</span>
-                  </li>
-                  <li class="socialItem">
-                    <a target="_blank" rel="noopener noreferrer" href="#"
-                    ><i class="fa-brands fa-twitter"></i></a
-                    ><span class="tooltiptext__tw">Twitter</span>
-                  </li>
-                  <li class="socialItem">
-                    <a target="_blank" rel="noopener noreferrer" href="#"
-                    ><i class="fa-brands fa-dribbble"></i></a
-                    ><span class="tooltiptext__dr">Dribbble</span>
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/domnguyen714/"
+                    ><i class="fa-brands fa-linkedin"></i></a
+                    ><span class="tooltiptext__fb">LinkedIn</span>
                   </li>
                 </ul>
               </div>
@@ -152,12 +142,6 @@ function App() {
                   <b>From:</b> Orange County, California
                 </li>
               </ul>
-              <a
-                class="about__button--active"
-                href="./Assets/Cv.pdf"
-                target="_blank"
-              >Download CV</a
-              >
             </div>
           </div>
           <div class="about__numbers">
@@ -179,10 +163,11 @@ function App() {
             </div>
           </div>
         </div>
+      </section>
+      <section>
         <h3 class="titleBackground">
           <LatestCommit />
         </h3>
-
       </section>
       <section>
         <div>
@@ -619,65 +604,12 @@ function App() {
           </h2>
 
           <div class="contact__wrap">
-            <div class="contact__data">
-              <h2 class="contactData__title">Address</h2>
-              <p class="contactData__address">
-                4th Floor, Plot No.22,
-                <br />
-                145 Murphy Canyon Rd.
-                <br />
-                San Diego CA 2028
-              </p>
-              <p class="contact__text">
-                <span class="address__icon"
-                ><i class="fa-solid fa-phone"></i
-                ></span>
-                (060) 444 434 444
-              </p>
-              <p class="contact__text">
-                <span class="address__icon">
-                  <i class="fa-solid fa-fax"></i
-                  ></span>
-                (060) 555 545 555
-              </p>
-              <p class="contact__text last__parag">
-                <span class="address__icon"
-                ><i class="fa-solid fa-envelope"></i
-                ></span>
-                chat@simone.com
-              </p>
-              <h2 class="contactData__title">Follow Me</h2>
-
-              <ul class="follow__icons">
-                <li class="follow__item">
-                  <i class="fa-brands fa-facebook-f"></i>
-                  <span class="tooltiptext__fb">Facebook</span>
-                </li>
-                <li class="follow__item">
-                  <i class="fa-brands fa-twitter"></i>
-                  <span class="tooltiptext__tw">Twitter</span>
-                </li>
-                <li class="follow__item">
-                  <i class="fa-brands fa-dribbble"></i>
-                  <span class="tooltiptext__dr">Dribbble</span>
-                </li>
-                <li class="follow__item">
-                  <i class="fa-brands fa-google"></i>
-                  <span class="tooltiptext__go">Google</span>
-                </li>
-                <li class="follow__item">
-                  <i class="fa-brands fa-github"></i>
-                  <span class="tooltiptext__gh">Github</span>
-                </li>
-              </ul>
-            </div>
             <ContactForm />
           </div>
         </div>
       </section>
-      <Router>
+      {/* <Router>
         <div>
-          {/* Navigation */}
           <nav>
             <ul>
               <li>
@@ -686,16 +618,15 @@ function App() {
             </ul>
           </nav>
 
-          {/* Route Definitions */}
           <Routes>
             <Route path="/comingsoon" element={<ComingSoon />} />
           </Routes>
         </div>
-      </Router>
+      </Router> */}
 
       {/* <!-- footer --> */}
-      <footer class="footer__container">
-        <p class="footer__desc">
+      {/*<footer class="footer__container">
+         <p class="footer__desc">
           Copyright Rania Helmy© 2021 <a href="#" class="footer__link">Simone.</a> All
           Rights Reserved.
         </p>
@@ -706,8 +637,8 @@ function App() {
           <li class="footer__linkItem">
             <a>Disclaimer</a>
           </li>
-        </ul>
-      </footer>
+        </ul> 
+      </footer>*/}
     </div >
 
 
