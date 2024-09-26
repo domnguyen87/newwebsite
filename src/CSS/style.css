@@ -286,7 +286,7 @@ html {
 /*******************************************About Section*****************************************/
 
 #about {
-  padding: 72px 0;
+  padding: 20px 0;
   color: var(--mainText__color);
 }
 
@@ -424,7 +424,7 @@ h2.titleBackground {
 /*******************************************Services Section*****************************************/
 #service {
   background-color: #f8f9fa;
-  padding: 72px 0;
+  padding: 20px 0;
 }
 
 .service__row,
@@ -496,7 +496,7 @@ h2.titleBackground {
 
 /*******************************************Summary Section*****************************************/
 #summary {
-  padding: 72px 0;
+  padding: 20px 0;
   margin: auto;
 }
 
@@ -734,7 +734,7 @@ h2.titleBackground {
 
 /*******************************************Portfolio Section*****************************************/
 #portfolio {
-  padding: 72px 0;
+  padding: 20px 0;
 }
 
 ul.portfolio__type {
@@ -844,7 +844,7 @@ li.item--active a {
 
 /*******************************************Testimonial Section*****************************************/
 #testimonial {
-  padding: 72px 0;
+  padding: 20px 0;
 }
 
 .testimonial__wrap {
@@ -907,7 +907,7 @@ li.item--active a {
 
 #contact {
   background-color: #f8f9fa;
-  padding: 72px 0;
+  padding: 20px 0;
 }
 
 .contact__wrap {
@@ -1056,6 +1056,7 @@ p.last__parag {
   font-size: 16px;
   border-radius: 800px;
   transition: 1s ease;
+  margin: 5px;
 }
 
 .send__button {

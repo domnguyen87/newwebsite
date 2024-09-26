@@ -46,7 +46,7 @@ function App() {
           <div class="navbar__container">
             <div class="navbar__row">
               <div class="navbar__logo">
-                <img src={require('./img/logo-light.png')} />
+                <img src={require('./img/logo-light.svg').default} />
               </div>
 
               <div class="navbar__listItem">

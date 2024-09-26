@@ -45,7 +45,7 @@ function VotingSystem() {
 
     return (
         <div>
-            <h1>What is the best language to learn in {year}</h1>
+            <h1>What is the best language to learn in {year}</h1><br></br>
             <VoteItem item="Python" votes={votes.item1} onVote={(value) => handleVote('item1', value)} />
             <VoteItem item="Rust" votes={votes.item2} onVote={(value) => handleVote('item2', value)} />
             <VoteItem item="JavaScript" votes={votes.item3} onVote={(value) => handleVote('item3', value)} />

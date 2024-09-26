@@ -48,7 +48,7 @@ const ContactForm: React.FC = () => {
 
   return (
     <div className="contact__form">
-      <h2 className="contactData__title">SEND US A NOTE</h2>
+      <h2 className="contactData__title">Send me an email! <br></br>Let’s keep the inbox party going!</h2>
       <form onSubmit={handleSubmit}>
         <input
           name="name"
@@ -72,7 +72,7 @@ const ContactForm: React.FC = () => {
           <textarea
             name="description"
             className="form__input"
-            placeholder="Tell us more about your needs......"
+            placeholder="Message"
             value={formData.description}
             onChange={handleChange}
             required
