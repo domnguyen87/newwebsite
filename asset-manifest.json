@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/www.domnguyen.me/static/css/main.d20b683f.css",
-    "main.js": "/www.domnguyen.me/static/js/main.de16f63e.js",
-    "static/js/453.face9f54.chunk.js": "/www.domnguyen.me/static/js/453.face9f54.chunk.js",
-    "static/media/intro-bg1.jpg": "/www.domnguyen.me/static/media/intro-bg1.1854cfd2bc3350de5987.jpg",
-    "static/media/img-3.jpg": "/www.domnguyen.me/static/media/img-3.150ffce0f48bb211955b.jpg",
-    "static/media/img-1.jpg": "/www.domnguyen.me/static/media/img-1.d5b571d8cfcfba27f718.jpg",
-    "static/media/img-4.jpg": "/www.domnguyen.me/static/media/img-4.6be41dc64cfc08b0ecf5.jpg",
-    "static/media/img-2.jpg": "/www.domnguyen.me/static/media/img-2.ad837f2e3dbf9f5ff2bd.jpg",
-    "static/media/gainfitness.JPG": "/www.domnguyen.me/static/media/gainfitness.f8eebe93d874bac1b2af.JPG",
-    "static/media/img-5.jpg": "/www.domnguyen.me/static/media/img-5.8af783687e7c47360f41.jpg",
-    "static/media/logo-light.svg": "/www.domnguyen.me/static/media/logo-light.2ff1dfa085aea245da7815cdc23c0f40.svg",
-    "index.html": "/www.domnguyen.me/index.html",
-    "main.d20b683f.css.map": "/www.domnguyen.me/static/css/main.d20b683f.css.map",
-    "main.de16f63e.js.map": "/www.domnguyen.me/static/js/main.de16f63e.js.map",
-    "453.face9f54.chunk.js.map": "/www.domnguyen.me/static/js/453.face9f54.chunk.js.map"
+    "main.css": "/static/css/main.12526a33.css",
+    "main.js": "/static/js/main.37bb8ffb.js",
+    "static/js/453.face9f54.chunk.js": "/static/js/453.face9f54.chunk.js",
+    "static/media/intro-bg1.jpg": "/static/media/intro-bg1.1854cfd2bc3350de5987.jpg",
+    "static/media/img-3.jpg": "/static/media/img-3.150ffce0f48bb211955b.jpg",
+    "static/media/img-1.jpg": "/static/media/img-1.d5b571d8cfcfba27f718.jpg",
+    "static/media/img-4.jpg": "/static/media/img-4.6be41dc64cfc08b0ecf5.jpg",
+    "static/media/img-2.jpg": "/static/media/img-2.ad837f2e3dbf9f5ff2bd.jpg",
+    "static/media/gainfitness.JPG": "/static/media/gainfitness.f8eebe93d874bac1b2af.JPG",
+    "static/media/img-5.jpg": "/static/media/img-5.8af783687e7c47360f41.jpg",
+    "static/media/logo-light.svg": "/static/media/logo-light.2ff1dfa085aea245da7815cdc23c0f40.svg",
+    "index.html": "/index.html",
+    "main.12526a33.css.map": "/static/css/main.12526a33.css.map",
+    "main.37bb8ffb.js.map": "/static/js/main.37bb8ffb.js.map",
+    "453.face9f54.chunk.js.map": "/static/js/453.face9f54.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d20b683f.css",
-    "static/js/main.de16f63e.js"
+    "static/css/main.12526a33.css",
+    "static/js/main.37bb8ffb.js"
   ]
 }
