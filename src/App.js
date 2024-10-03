@@ -101,7 +101,7 @@ function App() {
               <h1 class="home__title"></h1>
               {/* <h1 class="home__title">I'm Dom Nguyen</h1> */}
               <p class="home__desc">Based in Orange County, California</p>
-              <a href="mailto:abc@example.com" class="home__button">Hire Me</a>
+              <a href="mailto:contact@domnguyen.me?subject=I%20See%20Great%20Potential%20Here%20%E2%80%93%20Care%20to%20Chat%3F" class="home__button">Hire Me</a>
               {/* <button onClick={openChat}>Chat with Us</button> */}
               <div class="home__arrow--click">
                 <a href="#about"><i class="fa-solid fa-chevron-down"></i></a>
@@ -164,17 +164,7 @@ function App() {
           </div>
         </div>
       </section>
-      <section>
-        <h3 class="titleBackground">
-          <LatestCommit />
-        </h3>
-      </section>
-      <section>
-        <div>
-          <h2>Movies Recommendation</h2>
-          <RandomMovies />
-        </div>
-      </section>
+
 
       {/* <!-- Services -->
       <section id="service">
@@ -401,6 +391,11 @@ function App() {
           </div>
         </div>
       </section >
+      <section>
+        <h3 class="titleBackground">
+          <LatestCommit />
+        </h3>
+      </section>
 
       {/* <!-- Portfolio --> */}
       < section id="portfolio" >
@@ -512,7 +507,12 @@ function App() {
         </div> */}
         <ProjectShowcase />
       </section >
-
+      <section>
+        <div>
+          <h2>Movies Recommendation</h2>
+          <RandomMovies />
+        </div>
+      </section>
       {/* <!-- Testimonial --> */}
       < section id="testimonial" >
         <div class="testimonial__Container">
