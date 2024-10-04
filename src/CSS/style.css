@@ -223,7 +223,7 @@ html {
 .home__desc {
   color: var(--home__color);
   font-size: 21px;
-  margin-bottom: 24px;
+  margin-bottom: 10px;
 }
 
 .home__button {

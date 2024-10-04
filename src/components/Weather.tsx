@@ -76,15 +76,14 @@ const Weather: React.FC = () => {
     }, []);
 
     if (loading) return <div>Loading weather...</div>;
-    if (error) return <div>Error: {error}</div>;
+    if (error) return <div>What's the sky up to? Share your location to see!</div>;
 
     return (
         <div className="weather">
             {weatherData && (
                 <div>
-                    <h3>{weatherData.name}</h3>
                     <p>
-                        Temperature: {Math.round(weatherData.main.temp)}°F
+                        It's currently {Math.round(weatherData.main.temp)}°F in <b>{weatherData.name}</b>
                     </p>
                 </div>
             )}

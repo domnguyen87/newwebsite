@@ -1,10 +1,11 @@
 .weather {
     font-family: Arial, sans-serif;
     color: white;
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
-    width: 300px;
+    width: 450px;
     text-align: center;
+    font-size: 21px;
 }
 
 .weather h2 {

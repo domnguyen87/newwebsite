@@ -61,9 +61,7 @@ function App() {
               </div>
               <div class="navbar__listItem--mobile">
                 <input type="checkbox" id="btnControl" />
-                <label class="navbar__barIcon" for="btnControl"
-                ><i class="fas fa-bars"></i
-                ></label>
+                <label class="navbar__barIcon" for="btnControl"><i class="fas fa-bars"></i></label>
 
                 <ul class="mobileList">
                   <li class="mobileItem"><a href="#home">Home</a></li>
@@ -77,9 +75,9 @@ function App() {
               </div>
               <div class="navbar__socialItem">
                 <ul>
-                  <li class="socialItem">
+                  {/* <li class="socialItem">
                     <Weather />
-                  </li>
+                  </li> */}
                   <li class="socialItem">
                     <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/domnguyen714/"
                     ><i class="fa-brands fa-linkedin"></i></a
@@ -101,6 +99,7 @@ function App() {
               <h1 class="home__title"></h1>
               {/* <h1 class="home__title">I'm Dom Nguyen</h1> */}
               <p class="home__desc">Based in Orange County, California</p>
+              <Weather />
               <a href="mailto:contact@domnguyen.me?subject=I%20See%20Great%20Potential%20Here%20%E2%80%93%20Care%20to%20Chat%3F" class="home__button">Hire Me</a>
               {/* <button onClick={openChat}>Chat with Us</button> */}
               <div class="home__arrow--click">
